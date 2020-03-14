@@ -52,7 +52,7 @@ def movies_with_director_key(name, movies_collection)
    index = 0
    a_o_h_with_director_key = Array.new
 
-   while movie_index < movies_collection.size do
+   while index < movies_collection.size do
      a_o_h_with_director_key.push(movie_with_director_name(name, movies_collection[index]))
      index += 1
    end
